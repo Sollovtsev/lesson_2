@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Regular.woff") format("woff"), url("../fonts/Larsseit-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Medium.woff") format("woff"), url("../fonts/Larsseit-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff") format("woff"), url("../fonts/Larsseit-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Larsseit";
+}
+* {
+    color: white;
+}
+.menu-list * {
+    color: royalblue;
+}
+a {
+    color: blue;
+}
+.offer-title {
+    color: red;
+}
+.offer p {
+    color: green;
+}
+.intro .intro-text {
+    color: aquamarine;
+}
+#secrets-title {
+    color: blueviolet;
+}
+.secrets-list ~ p {
+    color: brown;
+}
+.secrets-text {
+    color: fuchsia;
+}
+.secrets-list + li {
+    color: gold;
+}
+.secrets-paragraph {
+    color: salmon;
+}
+.secrets-paragraph.paragraph-last {
+    color: darkcyan;
+}
+.errors-title + p {
+    color: navy;
+}
+.errors-list + p {
+    color: bisque;
+}
+.errors h2 {
+    color: hotpink;
+}
+.errors-list li {
+    color: tomato;
+}
+h2 {
+    color: aquamarine;
+} 
+.recomendations > ul {
+    color: darkgreen;
+}
+.recomendations-paragraph,
+.chances-text {
+    color: darkorchid;
+}
+.recomendations-title + p {
+    color: blue;
+}
+.recomendations-list + p {
+    color: darkgoldenrod;
+}
+.chances-title + p {
+    color: deeppink;
+}
+li.chances-paragraph {
+    color: khaki;
+}
+.chances-list ~ p {
+    color: darkturquoise;
+}
+footer {
+    color: aquamarine;
+}
