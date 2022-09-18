@@ -1,0 +1,379 @@
+/* Подключение шрифтов */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Italic.woff") format("woff"), url("../fonts/Montserrat-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/Gotham-MediumItalic.woff") format("woff"), url("../fonts/Gotham-MediumItalic.woff2") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+/* ______________________________ */
+
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+header {
+    margin: 20px 0 20px 0;
+}
+.menu-link a {
+    color: blue;
+    text-decoration: underline;
+    line-height: 2;
+}
+.offer > img {
+    margin-bottom: 20px;
+}
+.offer-title {
+    font-family: "Gotham";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 15px 15px 10px #7d1323;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+.offer .offer-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
+h4.content-title {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blue;
+    text-decoration: line-through;
+    text-shadow: 20px 15px 5px #4a137d;
+}
+.content-list {
+    padding: 10px 15px 10px 40px;
+    margin-bottom: 30px;
+}
+.content-link a {
+    color: rgb(115, 73, 22);
+    text-decoration: underline;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+h2.beginning-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 5px 5px 5px #4a137d;
+}
+.beginning-list li {
+    font-size: 20px;
+    color: rgb(54, 54, 163);
+    text-decoration: overline;
+    text-shadow: 15px 12px 10px #7d1323;
+    text-transform: capitalize;
+    line-height: 1.2;
+    width: 900px;
+    text-indent: 40px;
+    letter-spacing: 5px;
+}
+.beginning-list + p {
+    font-size: 25px;
+    margin: 20px 0;
+    word-spacing: 15px;
+    text-shadow: 16px 18px 12px #4a137d;
+    white-space: nowrap;
+    color: chartreuse;
+}
+.zirro-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+    color: aqua;
+    text-shadow: -24px 15px 15px #4a137d;
+}
+p.zirro-text {
+    font-size: 20px;
+    color: #7d1323;
+    word-spacing: 15px;
+    text-shadow: 12px 11px 8px #2b3108;
+    line-height: 1.4;
+    width: 700px;
+    margin: 15px 0;
+    letter-spacing: 8px;
+}
+.zirro-text + p {
+    font-size: 22px;
+    color: rgb(87, 87, 26);
+    word-spacing: 15px;
+    white-space: 20px;
+    text-indent: 40px;
+    margin: 10px 0;
+}
+.zirro-list li {
+    font-size: 20px;
+    color: blueviolet;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    padding: 0 15px;
+    margin: 15px 0;
+    text-shadow: 18px 20px 14px #4a137d;
+}
+.zirro-list ~ p {
+    font-size: 12px;
+    color: yellow;
+    margin: 16px 0;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+.bloger-title {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 10px 0;
+    text-shadow: 18px 15px 10px #4a137d;
+    color: aqua;
+}
+.bloger-text.text-bloger {
+    font-size: 27px;
+    color: #2a1642;
+    word-spacing: 25px;
+    text-shadow: 12px 11px 8px #2b3108;
+    line-height: 1.2;
+    margin: 15px 0;
+    letter-spacing: 8px;
+    text-indent: 40px;
+}
+.bloger-paragraph {
+    font-size: 22px;
+    color: burlywood;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    text-shadow: 12px 23px 10px #4a137d;
+}
+.bloger-list + p {
+    font-size: 27px;
+    color: #2a1642;
+    word-spacing: 25px;
+    text-shadow: 12px 11px 8px #2b3108;
+    line-height: 1.2;
+    margin: 15px 0;
+    letter-spacing: 8px;
+    text-indent: 40px;
+}
+h3.blog-title {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 10px 0;
+    text-shadow: 18px 15px 10px #4a137d;
+    color: aqua;
+}
+li.blog-paragraph {
+    font-size: 20px;
+    color: rgb(54, 54, 163);
+    text-decoration: overline;
+    text-shadow: 15px 12px 10px #7d1323;
+    text-transform: capitalize;
+    line-height: 1.2;
+    width: 900px;
+    text-indent: 40px;
+    letter-spacing: 5px;
+}
+.blog-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+}
+.blog-text + p {
+    font-size: 18px;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+}
+.selling-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+    color: aqua;
+    text-shadow: -24px 15px 15px #4a137d;
+}
+li.selling-paragraph {
+    font-size: 20px;
+    color: rgb(54, 54, 163);
+    text-decoration: overline;
+    text-shadow: 15px 12px 10px #7d1323;
+    text-transform: capitalize;
+    line-height: 1.2;
+    width: 900px;
+    text-indent: 40px;
+    letter-spacing: 5px;
+}
+.selling-text {
+    font-size: 20px;
+    color: #7d1323;
+    word-spacing: 15px;
+    text-shadow: 12px 11px 8px #2b3108;
+    line-height: 1.4;
+    width: 700px;
+    margin: 15px 0;
+    letter-spacing: 8px;
+}
+h3.photo-title {
+    font-size: 48px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: -19px -16px 15px #2b3108;
+    margin: 20px 0;
+}
+.photo-list .photo-paragraph {
+    font-size: 23px;
+    text-decoration: line-through;
+    line-height: 1.1;
+    letter-spacing: 12px;
+    text-shadow: 16px 14px 8px #2a1642;
+    padding: 0px 20px;
+    margin-bottom: 16px;
+}
+.photo-text {
+    font-size: 18px;
+    text-decoration: overline;
+    letter-spacing: 10px;
+    text-indent: 20px;
+}
+.photo-text + ul {
+    margin: 10px 0;
+}
+.photo-list + p {
+    font-size: 18px;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+}
+.earnings-title {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 10px 0;
+    text-shadow: 18px 15px 10px #4a137d;
+    color: aqua;
+}
+.earnings-text {
+    font-size: 20px;
+    color: #7d1323;
+    word-spacing: 15px;
+    text-shadow: 12px 11px 8px #2b3108;
+    line-height: 1.4;
+    width: 700px;
+    margin: 15px 0;
+    letter-spacing: 8px;
+}
+.earnings-paragrapg {
+    font-size: 18px;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+}
+.bloging-title {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blue;
+    text-decoration: line-through;
+    text-shadow: 20px 15px 5px #4a137d;
+}
+.bloging-text {
+    font-size: 32px;
+    color: darkgreen;
+    width: 800px;
+    text-indent: 30px;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    margin: 10px 0;
+    text-transform: lowercase;
+    text-shadow: 18px 20px 17px #4a137d;
+}
+li.bloging-paragraph {
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+.bloging-list + p {
+    font-size: 18px;
+    font-style: italic;
+    color: #2b3108;
+    word-spacing: 5px;
+    text-shadow: -10px -10px 10px #2b3108;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    margin: 10px 0;
+}
+.footer-text {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 10px 0;
+    text-shadow: 18px 15px 10px #4a137d;
+    color: aqua;
+}
