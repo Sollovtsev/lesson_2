@@ -1,0 +1,59 @@
+img {
+    max-width: 100%;
+}
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+}
+.page__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    background: url("../img/main-photo.jpg") 0 0 / cover no-repeat;
+    min-height: 800px;
+}
+.content__sun {
+    max-width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
+.content__clouds {
+    max-width: 450px;
+    position: absolute;
+    z-index: 1;
+}
+.content__auto {
+    max-width: 500px;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+}
+.content__castle {
+    position: absolute;
+    left: 60%;
+    top: 240px;
+    padding: 50px;
+}
+.content__building {
+    max-width: 200px;
+    position: relative;
+    z-index: 1;
+}
+.content__white-flag {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    max-width: 50px;
+    z-index: 0;
+}
+.content__japan-flag {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    max-width: 50px;
+    z-index: 0;
+}
